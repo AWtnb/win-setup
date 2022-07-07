@@ -17,6 +17,8 @@
 ## setup
 
 1. [Firefox](https://www.mozilla.org/ja/firefox/new/)
+    + 最終タブで閉じないようにする
+        + `about:config` → `browser.tabs.closeWindowWithLastTab` を `false` に
 1. [Chrome](https://www.google.com/intl/ja/chrome/)
 1. [Dropbox](https://www.dropbox.com/home)
 1. [Google日本語入力](https://www.google.co.jp/ime/)
@@ -26,6 +28,7 @@
     + add-ons
         + [Confirm-Address](https://addons.thunderbird.net/ja/thunderbird/user/meatian/)
         + [tbkeys-lite](https://addons.thunderbird.net/ja/thunderbird/user/willssss/)
+        + [No Message Pane Sort](https://addons.thunderbird.net/ja/thunderbird/addon/no-message-pane-sort-by-mouse/)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
     + インストール時は `オプション` → `すべてのユーザーに対してインストール`
 1. [pwsh](https://github.com/PowerShell/PowerShell/releases)
