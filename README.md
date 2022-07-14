@@ -29,6 +29,7 @@
         + [Confirm-Address](https://addons.thunderbird.net/ja/thunderbird/user/meatian/)
         + [tbkeys-lite](https://addons.thunderbird.net/ja/thunderbird/user/willssss/)
         + [No Message Pane Sort](https://addons.thunderbird.net/ja/thunderbird/addon/no-message-pane-sort-by-mouse/)
+        + [ThreadVis](https://threadvis.github.io/)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
     + インストール時は `オプション` → `すべてのユーザーに対してインストール`
 1. [pwsh](https://github.com/PowerShell/PowerShell/releases)
