@@ -79,3 +79,7 @@ $env:APPDATA|Join-Path -ChildPath "thunderbird"|ii # open in explorer
     ```
     #666666
     ```
+
+## `about:config`
+
++ `userChrome.css` `userContent.css` を有効化 → `toolkit.legacyUserProfileCustomizations.stylesheets` を `true` に
