@@ -5,6 +5,7 @@ $tbProf = $env:USERPROFILE | Join-Path -ChildPath "AppData\Roaming\Thunderbird\P
 
 @(
     "Dropbox\develop\app_config\Thunderbird\chrome",
+    "Dropbox\develop\app_config\Thunderbird\extensions",
     "Dropbox\_yuhikaku\mail_address\abook.sqlite"
 ) | ForEach-Object {
     $src = $env:USERPROFILE | Join-Path -ChildPath $_
