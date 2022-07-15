@@ -48,6 +48,12 @@ scoop bucket add extras
 
 ## Windows11 システム設定
 
+### パフォーマンスオプション
+
+![img](./img/perform.png)
+
+`スクリーンフォントの縁を滑らかにする` 以外はオフでOK。
+
 ### キーボード設定変更キー（alt+shift）の無効化
 
 ![img](./img/keyboard.png)
