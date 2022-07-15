@@ -1,5 +1,12 @@
 # Thunderbird
 
+[メール設定](https://github.com/AWtnb/thunderbird_imap_setting)
+
+## アカウント設定
+
++ `編集とアドレス入力`
+    + `書名を挿入する位置`：`返信部の下（引用部の上）`
+
 ## backup
 
 `C:\Users\USER\AppData\Roaming\Thunderbird` をコピー
@@ -82,4 +89,8 @@ $env:APPDATA|Join-Path -ChildPath "thunderbird"|ii # open in explorer
 
 ## `about:config`
 
-+ `userChrome.css` `userContent.css` を有効化 → `toolkit.legacyUserProfileCustomizations.stylesheets` を `true` に
+|項目|設定|内容|
+|:---|:---|:---|
+|`toolkit.legacyUserProfileCustomizations.stylesheets`|`true`|`userChrome.css` `userContent.css` を有効化|
+|`mail.wrap_long_lines` |`false`|自動改行の無効化|
+|`mailnews.wraplength` |`0`|自動改行の無効化|
