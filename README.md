@@ -25,10 +25,8 @@
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
     + インストール時は `オプション` → `すべてのユーザーに対してインストール`
 1. [pwsh](https://github.com/PowerShell/PowerShell/releases)
-    1. `Get-ExecutionPolicy` → `RemoteSigned` でなければ管理者権限で `Set-ExecutionPolicy RemoteSigned`
-    1.  `.\src\copy_google_ime.ps1`
-        + Dropbox 内の `config1.db` と `user_dictionary.db` を `C:\Users\USER\AppData\LocalLow\Google\Google Japanese Input` にコピーする
-        + 2回目以降は PowerShell で同期するので不要
+    1. `Get-ExecutionPolicy` の結果が `RemoteSigned` でなければ管理者権限で `Set-ExecutionPolicy RemoteSigned`
+    1.  初回のみ `.\src\copy_google_ime.ps1` を実行して Dropbox 内の `config1.db` と `user_dictionary.db` を `C:\Users\USER\AppData\LocalLow\Google\Google Japanese Input` にコピーする
     1. `.\src\pwsh.ps1`
     1. `.\src\keyhac.ps1`
     1. `.\src\mery.ps1`
