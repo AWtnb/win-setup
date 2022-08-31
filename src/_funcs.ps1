@@ -4,8 +4,8 @@ function Invoke-MySetup {
         [parameter(Mandatory)][string]$workDir
         ,[parameter(Mandatory)][string]$src
     )
-    $workDirPath = (Get-Item $workDir).FullName
-    $srcPath = (Get-Item $src).FullName
+    $workDirPath = (Get-Item -LiteralPath $workDir).FullName
+    $srcPath = (Get-Item -LiteralPath $src).FullName
     if (-not (Test-Path $workDirPath -PathType Container)) {
         "'{0}' does not exist!" -f $workDirPath | Write-Host -ForegroundColor Red
         return
@@ -37,8 +37,8 @@ function New-SymbolicLink {
         [parameter(Mandatory)][string]$src
         ,[string]$linkLocation
     )
-    $wd = ($linkLocation.Length -gt 0)? (Get-Item $linkLocation).FullName : (Get-Location).Path
-    $linkSrc = Get-Item $src
+    $wd = ($linkLocation.Length -gt 0)? (Get-Item -LiteralPath $linkLocation).FullName : (Get-Location).Path
+    $linkSrc = Get-Item -LiteralPath $src
     $linkPath = $wd | Join-Path -ChildPath $linkSrc.Name
     if (Test-Path $linkPath) {
         "'{0}' already exists!" -f $linkPath | Write-Host -ForegroundColor Red
@@ -61,8 +61,8 @@ function New-Junction {
         [parameter(Mandatory)][string]$src
         ,[string]$junctionLocation
     )
-    $wd = ($junctionLocation.Length -gt 0)? (Get-Item $junctionLocation).FullName : (Get-Location).Path
-    $linkSrc = Get-Item $src
+    $wd = ($junctionLocation.Length -gt 0)? (Get-Item -LiteralPath $junctionLocation).FullName : (Get-Location).Path
+    $linkSrc = Get-Item -LiteralPath $src
     $jctPath = $wd | Join-Path -ChildPath $linkSrc.Name
     if (Test-Path $jctPath) {
         "'{0}' already exists!" -f $jctPath | Write-Host -ForegroundColor Red
@@ -85,9 +85,9 @@ function New-ShortCut {
         [parameter(Mandatory)][string]$pathToJump
         ,[string]$shortcutPlace
     )
-    $linkSrc = Get-Item $pathToJump
+    $linkSrc = Get-Item -LiteralPath $pathToJump
     $linkName = $linkSrc.BaseName + ".lnk"
-    $wd = ($shortcutPlace.Length -gt 0)? (Get-Item $shortcutPlace).FullName : (Get-Location).Path
+    $wd = ($shortcutPlace.Length -gt 0)? (Get-Item -LiteralPath $shortcutPlace).FullName : (Get-Location).Path
     $shortcutPath = $wd | Join-Path -ChildPath $linkName
     if (Test-Path $shortcutPath) {
         "'{0}' already exists!" -f $shortcutPath | Write-Host -ForegroundColor Red
