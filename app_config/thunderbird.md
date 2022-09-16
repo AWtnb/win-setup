@@ -17,12 +17,12 @@ $env:APPDATA|Join-Path -ChildPath "thunderbird"|ii # open in explorer
 
 ## add-ons
 
-###  [Confirm-Address](https://addons.thunderbird.net/ja/thunderbird/user/meatian/)
+###  [Check and Send](https://addons.thunderbird.net/ja/thunderbird/addon/check-and-send/)
 
-下記2点を設定
+`以下の単語がメール中になかったら確認する` に下記を設定：
 
-+ `送信ボタン押下後にカウントダウンを開始する` → 5秒
-+ `自ドメインの一括チェックボタンを有効にする`
++ `先生`
++ `様`
 
 ###  [No Message Pane Sort](https://addons.thunderbird.net/ja/thunderbird/addon/no-message-pane-sort-by-mouse/)
 
