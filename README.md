@@ -32,7 +32,6 @@
     1. `.\src\mery.ps1`
     1. `.\src\mousegesuturel.ps1`
     1. `.\src\sumatrapdf.ps1`
-    1. `.\src\thunderbird.ps1`
 
 ## scoop
 
