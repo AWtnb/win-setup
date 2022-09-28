@@ -21,7 +21,7 @@
 1. [Dropbox](https://www.dropbox.com/home)
 1. [Google日本語入力](https://www.google.co.jp/ime/)
 1. [Mery](https://www.haijin-boys.com/)
-1. [ThunderBird](https://www.thunderbird.net/ja/) ([config](./app_config/thunderbird.md))
+1. [ThunderBird](https://www.thunderbird.net/ja/)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
     + インストール時は `オプション` → `すべてのユーザーに対してインストール`
 1. [pwsh](https://github.com/PowerShell/PowerShell/releases)
