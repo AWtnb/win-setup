@@ -27,11 +27,12 @@
 1. [pwsh](https://github.com/PowerShell/PowerShell/releases)
     1. `Get-ExecutionPolicy` の結果が `RemoteSigned` でなければ管理者権限で `Set-ExecutionPolicy RemoteSigned`
     1.  初回のみ `.\src\copy_google_ime.ps1` を実行して Dropbox 内の `config1.db` と `user_dictionary.db` を `C:\Users\USER\AppData\LocalLow\Google\Google Japanese Input` にコピーする
-    1. `.\src\pwsh.ps1`
-    1. `.\src\keyhac.ps1`
-    1. `.\src\mery.ps1`
-    1. `.\src\mousegesuturel.ps1`
-    1. `.\src\sumatrapdf.ps1`
+    1. 下記スクリプトを実行してセットアップ
+        + `.\src\pwsh.ps1`
+        + `.\src\keyhac.ps1`
+        + `.\src\mery.ps1`
+        + `.\src\mousegesuturel.ps1`
+        + `.\src\sumatrapdf.ps1`
 
 ## scoop
 
@@ -49,7 +50,8 @@ scoop bucket add extras
 
 ![img](./img/perform.png)
 
-`スクリーンフォントの縁を滑らかにする` と `アイコンの代わりに縮小版を表示する` 以外はオフでOK。
++ `スクリーンフォントの縁を滑らかにする` と `アイコンの代わりに縮小版を表示する` 以外はオフでOK。
++ 必要であれば `ドラッグ中にウィンドウの内容を表示する` もオンに。
 
 ### キーボード設定変更キー（alt+shift）の無効化
 
@@ -58,6 +60,27 @@ scoop bucket add extras
 ### 固定キーの無効化
 
 ![img](./img/fixkey.png)
+
+### 高DPI設定時の対応
+
+![img](./img/dpi.png)
+
+`高 DPI スケール設定の上書き` で `システム（拡張）` を設定しておけばよい様子。
+
++ `アプリケーション` はアプリ自体の本来の描画で調整なしの状態
++ `システム` だとぼやけることがある
+
+ただし MouseGestureL はここで `アプリケーション` を指定する（[公式](http://hp.vector.co.jp/authors/VA018351/mglahk.html)）。
+
+> AutoHotkeyはPer-Monitor DPIに対応していないため、マルチモニター環境でプライマリモニターとは異なる表示スケールが設定されたモニター上では、カーソル座標に関連した不具合が発生します。 これを回避するには、以下の手順でAutoHotkeyに対する高DPI設定を変更する必要があります。
+> 
+>     1. エクスプローラーでAutoHotkey.exe（またはMouseGestureL.exe）のプロパティを表示する。
+>     2. 「互換性」タブを選択し、「設定」の中の「高DPI設定の変更」ボタンをクリックする。
+>     3. 「高DPIスケール設定の上書き」の中の「高DPIスケール設定の動作を上書きします。」をチェックする。
+>     4. 「拡大縮小の実行元」ドロップダウンリストで「アプリケーション」を選択する。（デフォルトで選択されています）
+>     5. 「OK」ボタンをクリックしてプロパティ画面を閉じる。
+> 
+> 上記の設定変更によりサブモニター上でのジェスチャー機能は正常動作するようになりますが、設定画面等のダイアログBOXをサブモニターへ移動した際に、表示スケールに応じたウィンドウサイズの自動調節が行われなくなります。
 
 ### プリインストールアプリの削除
 
