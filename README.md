@@ -1,18 +1,12 @@
 # Windows Setup Memo
 
-自分用メモ。
+## favorite fonts
 
-
-## `C:\Personal`
-
-+ [keyhac](https://sites.google.com/site/craftware/keyhac-ja)
-+ `launch.yaml`
-+ フォント
-    + [IBM-Plex-Sans](https://github.com/IBM/plex/releases)
-    + [HackGen](https://github.com/yuru7/HackGen/releases)
-    + [InGenUI](https://github.com/yuru7/InGenUI/releases)
-    + [PlemolJP](https://github.com/yuru7/PlemolJP/releases)
-    + [UDEVGothic](https://github.com/yuru7/udev-gothic/releases)
++ [IBM-Plex-Sans](https://github.com/IBM/plex/releases)
++ [HackGen](https://github.com/yuru7/HackGen/releases)
++ [InGenUI](https://github.com/yuru7/InGenUI/releases)
++ [PlemolJP](https://github.com/yuru7/PlemolJP/releases)
++ [UDEVGothic](https://github.com/yuru7/udev-gothic/releases)
 
 ## setup
 
