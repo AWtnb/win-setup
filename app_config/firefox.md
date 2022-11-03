@@ -23,4 +23,10 @@
 
 ## `about:config`
 
-+ 最終タブで閉じないようにする → `browser.tabs.closeWindowWithLastTab` を `false` に
+### 最終タブで閉じないようにする
+
+`browser.tabs.closeWindowWithLastTab` => `false`
+
+### マウススクロールでタブ切り替え
+
+`toolkit.tabbox.switchByScrolling` => `true`
