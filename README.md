@@ -10,7 +10,8 @@
 
 ## setup
 
-1. [Firefox](https://www.mozilla.org/ja/firefox/new/) ([config](./app_config/firefox.md))
+1. [Firefox](https://www.mozilla.org/ja/firefox/new/)
+    + [config](./app_config/firefox.md)
 1. [Chrome](https://www.google.com/intl/ja/chrome/)
 1. [Dropbox](https://www.dropbox.com/home)
 1. [Google日本語入力](https://www.google.co.jp/ime/)
