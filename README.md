@@ -11,18 +11,20 @@
 ## setup
 
 1. [Firefox](https://www.mozilla.org/ja/firefox/new/)
-    + [config](./app_config/firefox.md)
+    + [各種設定](./app_config/firefox.md)
 1. [Chrome](https://www.google.com/intl/ja/chrome/)
+    + [マルチアカウントの設定方法（Qiita）](https://qiita.com/PictoMki/items/cb53ea396e8b8feea65e)
 1. [Dropbox](https://www.dropbox.com/home)
 1. [Google日本語入力](https://www.google.co.jp/ime/)
 1. [Mery](https://www.haijin-boys.com/)
 1. [ThunderBird](https://www.thunderbird.net/ja/)
-    + [config](./app_config/thunderbird.md)
+    + [各種設定](./app_config/thunderbird.md)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
     + インストール時は `オプション` → `すべてのユーザーに対してインストール`
 1. [pwsh](https://github.com/PowerShell/PowerShell/releases)
     1. `Get-ExecutionPolicy` の結果が `RemoteSigned` でなければ管理者権限で `Set-ExecutionPolicy RemoteSigned`
-    1.  初回のみ `.\src\copy_google_ime.ps1` を実行して Dropbox 内の `config1.db` と `user_dictionary.db` を `C:\Users\USER\AppData\LocalLow\Google\Google Japanese Input` にコピーして再起動
+    1.  初回のみ `.\src\copy_google_ime.ps1` を実行して Dropbox 内の `config1.db` と `user_dictionary.db` を `C:\Users\USER\AppData\LocalLow\Google\Google Japanese Input` にコピーする
+        + 再起動して初回の設定を反映させる
     1. 下記スクリプトを実行してセットアップ
         + `.\src\pwsh.ps1`
         + `.\src\keyhac.ps1`
