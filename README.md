@@ -36,8 +36,17 @@
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 ```
 
+scoop をインストールしたら `scoop install git` で git を有効化。それから下記コマンドで bucket を追加。
+
 ```
 scoop bucket add extras
+```
+
+このときついでに git の設定を済ませておくと楽。
+
+```
+git config --global user.name awtnb
+git config --global user.email （メールアドレス）
 ```
 
 ## Windows11 システム設定
