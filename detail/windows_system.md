@@ -1,5 +1,16 @@
 # Windows (11) システム設定
 
+## マルチタスク
+
+![img](./img/multi-task.png)
+
+`ウィンドウのスナップ` をオンに。残りのチェックは外す。
+
+
+![img](./img/alttab.png)
+
+<kbd>Alt + Tab</kbd> の切り替えを設定。
+
 ## パフォーマンスオプション
 
 ![img](./img/perform.png)
