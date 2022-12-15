@@ -1,21 +1,27 @@
 # Thunderbird
 
-[メール設定](https://github.com/AWtnb/thunderbird_imap_setting)
+## データ移行
 
-## アカウント設定
-
-+ `編集とアドレス入力`
-    + `書名を挿入する位置`：`返信部の下（引用部の上）`
-
-## backup
-
-`C:\Users\USER\AppData\Roaming\Thunderbird` をコピー
+`C:\Users\%USERNAME%\AppData\Roaming\Thunderbird` をコピーすれば移行完了。
 
 ```PowerShell
 $env:APPDATA|Join-Path -ChildPath "thunderbird"|ii # open in explorer
 ```
 
-## add-ons
+------------------------------
+
+手動でセットアップする場合は下記。
+
+
+## サーバー設定
+
+https://github.com/AWtnb/thunderbird_imap_setting
+
+## `アカウント設定`
+
++ `編集とアドレス入力` から `書名を挿入する位置` を `返信部の下（引用部の上）` に。
+
+## アドオン
 
 ###  [Check and Send](https://addons.thunderbird.net/ja/thunderbird/addon/check-and-send/)
 

@@ -1,6 +1,8 @@
-# firefox
+# FireFox
 
-## [shortkeys](https://addons.mozilla.org/ja/firefox/addon/shortkeys/)
+## アドオン
+
+### [shortkeys](https://addons.mozilla.org/ja/firefox/addon/shortkeys/)
 
 ```json
 [
@@ -23,10 +25,5 @@
 
 ## `about:config`
 
-### 最終タブで閉じないようにする
-
-`browser.tabs.closeWindowWithLastTab` => `false`
-
-### マウススクロールでタブ切り替え
-
-`toolkit.tabbox.switchByScrolling` => `true`
++ 最終タブで閉じないようにする： `browser.tabs.closeWindowWithLastTab` => `false`
++ マウススクロールでタブ切り替え： `toolkit.tabbox.switchByScrolling` => `true`
