@@ -30,3 +30,9 @@ scoop bucket add extras
 git config --global user.name awtnb
 git config --global user.email （メールアドレス）
 ```
+
+よく使うツール類は下記コマンドで一括インストール。
+
+```
+echo bat cmder go irfanview-lean less nodejs obsidian python ueli vscode monolith pdftk | % {scoop install $_}
+```
