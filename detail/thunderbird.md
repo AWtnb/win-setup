@@ -21,6 +21,15 @@ https://github.com/AWtnb/thunderbird_imap_setting
 
 + `編集とアドレス入力` から `書名を挿入する位置` を `返信部の下（引用部の上）` に。
 
+## 外観
+
++ [`userChrome.css`](./chrome/userChrome.css)
++ [`userContent.css`](./chrome/userContent.css)
+
+を下記にコピー。
+
+`C:\Users\%USERNAME%\AppData\Roaming\Thunderbird\Profiles\~~~~~~~~~~~~~~~~~\chrome`
+
 ## アドオン
 
 ###  [Check and Send](https://addons.thunderbird.net/ja/thunderbird/addon/check-and-send/)

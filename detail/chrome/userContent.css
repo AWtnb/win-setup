@@ -1,0 +1,28 @@
+
+/*
+  message window
+*/
+* {
+  font-family: "UDEV Gothic" !important;
+}
+
+
+body {
+  border: 1px solid #aaa;
+  padding: 4px;
+  font-size: 14px;
+  background-color: #eaeaea !important;
+  color: #073642 !important;
+  line-height: 1.25 !important;
+}
+a {
+  color: #268bd2;
+}
+
+
+/*
+  quote message color
+*/
+blockquote, span[_moz_quote=true] {
+  color: #b58900 !important;
+}
