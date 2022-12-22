@@ -18,7 +18,6 @@
 1. [Mery](https://www.haijin-boys.com/)
 1. [ThunderBird](https://www.thunderbird.net/ja/)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
-    + インストール時は `オプション` → `すべてのユーザーに対してインストール` すること
 1. [PowerShell](https://github.com/PowerShell/PowerShell/releases)
 
 ### 各アプリの設定
