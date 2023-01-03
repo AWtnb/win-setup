@@ -2,26 +2,9 @@
 
 ## アドオン
 
-### [shortkeys](https://addons.mozilla.org/ja/firefox/addon/shortkeys/)
+### [Close Tabs Shortcuts](https://addons.mozilla.org/ja/firefox/addon/close-tabs-shortcuts/)
 
-```json
-[
-    {
-      "action": "onlytab",
-      "key": "alt+shift+o",
-      "label": "other-close",
-      "sites": "",
-      "sitesArray": [
-        ""
-      ]
-    },
-    {
-      "key": "alt+shift+n",
-      "label": "to-new-window",
-      "action": "movetabtonewwindow"
-    }
-  ]
-```
+`拡張機能のショートカットキーの管理` から各種設定
 
 ## `about:config`
 
