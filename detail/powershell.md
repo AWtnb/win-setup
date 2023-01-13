@@ -34,5 +34,5 @@ git config --global user.email （メールアドレス）
 よく使うツール類は下記コマンドで一括インストール。
 
 ```
-echo bat cmder go irfanview-lean less monolith museeks nodejs obsidian pdf-xchange-editor pdftk python rustup ueli vscode xnviewmp youtube-dl | % {scoop install $_}
+echo bat cmder go irfanview-lean ksnip less monolith museeks nodejs obsidian pdf-xchange-editor pdftk python rustup ueli vscode xnviewmp youtube-dl | % {scoop install $_}
 ```
