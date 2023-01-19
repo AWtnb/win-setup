@@ -36,3 +36,10 @@ git config --global user.email （メールアドレス）
 ```
 echo bat cmder go irfanview-lean ksnip less monolith museeks nodejs obsidian pdf-xchange-editor pdftk python rustup ueli vscode xnviewmp youtube-dl | % {scoop install $_}
 ```
+
+### Obsidian
+
++ [Hotkeys](./obsidian/hotkeys.json)
++ Vault 別のショートカット作成：
+    1. コンテキストメニューからショートカットを新規作成
+    1. `項目の場所` に `obsidian://open/?vault=（Vault名のURLエンコーディング）` を指定
