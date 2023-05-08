@@ -6,14 +6,20 @@
   font-family: "UDEV Gothic" !important;
 }
 
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  word-wrap: break-word !important;
+  background-color: #eaeaea !important;
+}
 
 body {
-  border: 1px solid #aaa;
-  padding: 4px;
+  margin: 0 !important;
+  padding: 4px !important;
   font-size: 14px;
-  background-color: #eaeaea !important;
   color: #073642 !important;
   line-height: 1.25 !important;
+  overflow-x: hidden;
 }
 a {
   color: #268bd2;
