@@ -23,6 +23,7 @@
 
 ### 各アプリの設定
 
++ [Syncthing](./detail/syncthing.md)
 + [PowerShell](./detail/powershell.md)
 + [Chrome](./detail/chrome.md)
 + [Firefox](./detail/firefox.md)
