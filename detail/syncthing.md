@@ -5,8 +5,6 @@
 
 ```
 node_modules
-flet*/build
-flet*/dist
 keyhac.ini
 ```
 
