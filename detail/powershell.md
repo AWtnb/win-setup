@@ -3,8 +3,6 @@
 ## 設定の反映
 
 1. `Get-ExecutionPolicy` の結果が `RemoteSigned` でなければ管理者権限で `Set-ExecutionPolicy RemoteSigned`
-1.  初回のみ `.\src\copy_google_ime.ps1` を実行して Dropbox 内の `config1.db` と `user_dictionary.db` を `C:\Users\USER\AppData\LocalLow\Google\Google Japanese Input` にコピーする
-    + 再起動して初回の設定を反映させる
 1. 管理者権限で下記スクリプトを実行してセットアップ
     + `.\src\pwsh.ps1`
     + `.\src\keyhac.ps1`

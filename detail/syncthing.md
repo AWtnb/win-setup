@@ -13,6 +13,32 @@ keyhac.ini
 + [公式](https://docs.syncthing.net/v1.23.5/users/ignoring)
 + [Syncthingを使ってみる、その3 | GWT Center](https://www.gwtcenter.com/using-syncthing-3)
 
+
+## アプリ別同期設定
+
+### Obsidian
+
+`.stignore` を下記のように設定。
+
+
+```
+workspace.json
+workspace-mobile.json
+```
+
+### Google 日本語入力
+
+`C:\Users\USERNAME\AppData\LocalLow\Google\Google Japanese Input` を同期する。
+
+`.stignore` を下記のように設定。
+
+```
+!user_dictionary.db
+!config1.db
+*
+```
+
+
 ## Synology NAS
 
 DSM にも Syncthing を追加する。
