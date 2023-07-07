@@ -6,6 +6,8 @@
 ```
 node_modules
 keyhac.ini
+tablacus/config/closedtabs*.xml
+tablacus/config/window*.xml
 ```
 
 参考：
