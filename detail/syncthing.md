@@ -1,44 +1,46 @@
 # Syncthing
 
-無視するファイル名（ `.stignore` ）を下記のように設定する。
+先に共有してしまうと無視すべきファイルも残ってしまうので要注意。基本的に以下の手順で進める。
+
+1. 同期フォルダのパスを指定する。
+1. `.stignore` を設定する。
+1. `共有` から他の端末と同期する。
 
 
-```
-node_modules
-keyhac.ini
-tablacus/config/closedtabs*.xml
-tablacus/config/window*.xml
-```
+## ローカル
 
-参考：
+### Default Folder
 
-+ [公式](https://docs.syncthing.net/v1.23.5/users/ignoring)
-+ [Syncthingを使ってみる、その3 | GWT Center](https://www.gwtcenter.com/using-syncthing-3)
++ `.stignore`
 
+    ```
+    node_modules
+    keyhac.ini
+    tablacus/config/closedtabs*.xml
+    tablacus/config/window*.xml
+    ```
 
-## アプリ別同期設定
 
 ### Obsidian
 
-`.stignore` を下記のように設定。
++ Path: `~\Obsidian`
++ `.stignore`
 
-
-```
-workspace.json
-workspace-mobile.json
-```
+    ```
+    workspace.json
+    workspace-mobile.json
+    ```
 
 ### Google 日本語入力
 
-`C:\Users\USERNAME\AppData\LocalLow\Google\Google Japanese Input` を同期する。
++ Path: `~\AppData\LocalLow\Google\Google Japanese Input`
++ `.stignore`
 
-`.stignore` を下記のように設定。
-
-```
-!user_dictionary.db
-!config1.db
-*
-```
+    ```
+    !user_dictionary.db
+    !config1.db
+    *
+    ```
 
 
 ## Synology NAS
