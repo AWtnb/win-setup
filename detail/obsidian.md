@@ -4,6 +4,17 @@ Vault 別のショートカット作成：
 1. コンテキストメニューからショートカットを新規作成
 1. `項目の場所` に `obsidian://open/?vault=（Vault名のURLエンコーディング）` を指定
 
+## css snippets
+
+ナビゲーションバーで添付ファイルを表示しない
+
+```css
+.nav-file-title:not([data-path$=".md"]) {
+  display: none;
+}
+
+```
+
 ## `hotkeys.json`
 
 ```json
@@ -175,6 +186,15 @@ Vault 別のショートカット作成：
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
     }
   ]
 }
