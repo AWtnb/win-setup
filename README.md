@@ -25,6 +25,7 @@
 
 + [Syncthing](./detail/syncthing.md)
 + [PowerShell](./detail/powershell.md)
++ [Obsidian](./detail/obsidian.md)
 + [Chrome](./detail/chrome.md)
 + [Firefox](./detail/firefox.md)
 + [Thunderbird](./detail/thunderbird.md)
