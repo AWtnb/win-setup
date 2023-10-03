@@ -13,9 +13,9 @@
 ------------------------------ */
 
 #threadTree [is="thread-row"] {
-  line-height: 1.75;
+  font-size: 12px;
   color: #6e6e6e !important;
-  font-size: 14px;
+  line-height: 2;
 }
 
 #threadTree [is="thread-row"]:nth-of-type(odd) {
@@ -25,9 +25,13 @@
 #threadTree [is="thread-row"]:hover {
   background-color: #98daee !important;
 }
+#threadTree [is="thread-row"]:hover > * {
+  border-top: 1px dashed #123456 !important;
+  border-bottom: 1px dashed #123456 !important;
+}
 #threadTree [is="thread-row"].selected {
   background-color: #98daee !important;
-  color: #272727 !important;
+  color: #494949 !important;
 }
 
 #threadTree [is="thread-row"].selected button.tree-button-flag {
