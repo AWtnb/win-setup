@@ -2,13 +2,19 @@
   font-family: "UDEV Gothic" !important;
 }
 
+#folderPaneWriteMessage {
+  background: #5e5e5e !important;
+  color: #ececec !important;
+  border: none !important;
+}
+
 /* ------------------------------
-      message-list pane
-  ------------------------------ */
+    message-list pane
+------------------------------ */
 
 #threadTree [is="thread-row"] {
   line-height: 1.5;
-  color: #5e5e5e !important;
+  color: #6e6e6e !important;
   font-size: 14px;
 }
 
@@ -20,7 +26,12 @@
   background-color: #98daee !important;
 }
 #threadTree [is="thread-row"].selected {
-  background-color: #98b3ee !important;
+  background-color: #98daee !important;
+  color: #272727 !important;
+}
+
+#threadTree [is="thread-row"].selected button.tree-button-flag {
+  color: #efefef !important;
 }
 
 /* unread message */
@@ -29,8 +40,8 @@
 }
 
 /* ------------------------------
-      preview pane
-  ------------------------------ */
+    preview pane
+------------------------------ */
 
 #attachment-view-toolbar,
 #attachmentList,
