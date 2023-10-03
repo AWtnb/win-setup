@@ -13,7 +13,7 @@
 ------------------------------ */
 
 #threadTree [is="thread-row"] {
-  line-height: 1.5;
+  line-height: 1.75;
   color: #6e6e6e !important;
   font-size: 14px;
 }
