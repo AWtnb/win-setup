@@ -22,16 +22,13 @@
   background: #ececec !important;
 }
 
-#threadTree [is="thread-row"]:hover {
-  background-color: #98daee !important;
-}
-#threadTree [is="thread-row"]:hover > * {
-  border-top: 1px dashed #123456 !important;
-  border-bottom: 1px dashed #123456 !important;
-}
 #threadTree [is="thread-row"].selected {
   background-color: #98daee !important;
   color: #494949 !important;
+}
+
+#threadTree [is="thread-row"]:hover {
+  background-color: #c3e9f5 !important;
 }
 
 #threadTree [is="thread-row"].selected button.tree-button-flag {
