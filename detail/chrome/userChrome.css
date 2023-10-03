@@ -1,107 +1,44 @@
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
-
-* {
-    font-family: "UDEV Gothic" !important;
+#threadTree * {
+  font-family: "UDEV Gothic" !important;
 }
 
 /* ------------------------------
-    folder pane
------------------------------- */
+      message-list pane
+  ------------------------------ */
 
-/* height of row */
-#folderTree treechildren::-moz-tree-row {
-    font-size: 12px;
-}
-#folderTree treechildren::-moz-tree-cell-text {
-    color: #5e5e5e !important;
-}
-/* color of current folder */
-#folderTree treechildren::-moz-tree-row(current) {
-    background-color: #63b1f1 !important;
-}
-/* color of unread folder */
-#folderTree treechildren::-moz-tree-cell-text(hasUnreadMessages-true) {
-    color: #194357 !important;
+#threadTree [is="thread-row"] {
+  line-height: 1.5;
+  color: #5e5e5e !important;
+  font-size: 14px;
 }
 
-
-/* draft folder */
-#folderTree treechildren::-moz-tree-cell-text(folderNameCol, specialFolder-Drafts, hasUnreadMessages-true) {
-    color: #aaa !important;
-    font-weight: normal !important;
+#threadTree [is="thread-row"]:nth-of-type(odd) {
+  background: #ececec !important;
 }
 
-/* local folder */
-#folderTree treechildren::-moz-tree-image(folderNameCol, specialFolder-none, isServer-true, serverType-none) {
-    fill: #c9c9c9 !important;
+#threadTree [is="thread-row"]:hover {
+  background-color: #98daee !important;
 }
-#folderTree treechildren::-moz-tree-cell-text(folderNameCol, serverType-none) {
-    /*
-        http://forums.mozillazine.org/viewtopic.php?f=39&t=2875895
-        https://forums.mozillazine.jp/viewtopic.php?t=19697&p=71772
-        https://support.mozilla.org/gu-IN/questions/1309818
-    */
-    color: #b7b7b7 !important;
-}
-
-/* ------------------------------
-    message-list pane
------------------------------- */
-
-#threadTree treechildren::-moz-tree-cell-text {
-    color: #5e5e5e !important;
-}
-#threadTree treechildren::-moz-tree-row {
-    font-size: 14px !important;
-    border: none !important;
-}
-#threadTree treechildren::-moz-tree-row(odd) {
-    background-color: #eaeaea !important;
-}
-
-
-/* selected message */
-#threadTree treechildren::-moz-tree-row(hover) {
-    background-color: #e5f2f5 !important;
-}
-#threadTree treechildren::-moz-tree-row(selected) {
-    background-color: #d1e1e4 !important;
-}
-#threadTree treechildren::-moz-tree-row(hover) {
-    border-top: 1px dashed #194357 !important;
-    border-bottom: 1px dashed #194357 !important;
-}
-#threadTree treechildren::-moz-tree-row(selected) {
-    border-top: 1px solid #3f7d9a !important;
-    border-bottom: 1px solid #3f7d9a !important;
+#threadTree [is="thread-row"].selected {
+  background-color: #98b3ee !important;
 }
 
 /* unread message */
-#threadTree treechildren::-moz-tree-cell-text(unread),
-#threadTree treechildren::-moz-tree-cell-text(container, closed, hasUnread, read) {
-    color: #194357 !important;
+#threadTree [data-properties~="unread"] {
+  color: #0d3e6d !important;
 }
 
 /* ------------------------------
-    preview pane
------------------------------- */
+      preview pane
+  ------------------------------ */
 
 #attachment-view-toolbar,
 #attachmentList,
 #attachmentList * {
-    background-color: #ffea00 !important;
-    color: #123456 !important;
+  background-color: #ffea00 !important;
+  color: #123456 !important;
 }
-
 
 #expandedHeadersBottomBox {
-    min-height: 60px!important;
-}
-
-/* ------------------------------
-    threadvis
------------------------------- */
-
-#ThreadVis {
-    height: 45px !important;
+  min-height: 60px !important;
 }
