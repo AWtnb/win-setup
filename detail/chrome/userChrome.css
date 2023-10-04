@@ -9,7 +9,7 @@
 }
 
 /* ------------------------------
-    message-list pane
+message-list pane (table-view-mode)
 ------------------------------ */
 
 #threadTree [is="thread-row"] {
@@ -32,6 +32,33 @@
 }
 
 #threadTree [is="thread-row"].selected button.tree-button-flag {
+  color: #efefef !important;
+}
+
+/* ------------------------------
+message-list pane (card-view-mode)
+------------------------------ */
+
+#threadTree [is="thread-card"] {
+  font-size: 12px;
+  color: #6e6e6e !important;
+  line-height: 2;
+}
+
+#threadTree [is="thread-card"]:nth-of-type(odd) {
+  background: #ececec !important;
+}
+
+#threadTree [is="thread-card"].selected {
+  background-color: #98daee !important;
+  color: #494949 !important;
+}
+
+#threadTree [is="thread-card"]:hover {
+  background-color: #c3e9f5 !important;
+}
+
+#threadTree [is="thread-card"].selected button.tree-button-flag {
   color: #efefef !important;
 }
 
