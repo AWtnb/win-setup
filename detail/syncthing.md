@@ -32,6 +32,11 @@
     workspace-mobile.json
     ```
 
+### CorvusSKK
+
++ Path: `~\AppData\Roaming\CorvusSKK`
+
+
 ### Google 日本語入力
 
 + Path: `~\AppData\LocalLow\Google\Google Japanese Input`

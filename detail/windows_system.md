@@ -1,5 +1,25 @@
 # Windows システム設定
 
+## 既定の IME を設定
+
+### Windows 11
+
+`時刻と言語 > 日付と時刻` メニュー内の「日本語」の三点リーダオプションから `言語のオプション`
+
+![img](./img/corvus-win11-01.png)
+
+「キーボード」の `キーボードの追加` から `CorvusSKK` を追加
+
+![img](./img/corvus-win11-02.png)
+
+`時刻と言語 > 入力 > キーボードの詳細設定` でCorvusSKK を選択できるようになる。
+
+![img](./img/corvus-win11-03.png)
+
+
+### Windows 10
+
+
 ## <kbd>ctrl + alt + ←↓↑→</kbd> での画面回転の無効化
 
 ![img](./img/intel.png)

@@ -15,6 +15,8 @@
 1. [Chrome](https://www.google.com/intl/ja/chrome/)
 1. [Dropbox](https://www.dropbox.com/home)
 1. [Syncthing](https://syncthing.net/downloads/)
+1. [CorvusSKK](https://nathancorvussolis.github.io/)
+    - Winget: `winget install -h corvusskk -s winget`
 1. [Google日本語入力](https://www.google.co.jp/ime/)
 1. [Mery](https://www.haijin-boys.com/)
 1. [ThunderBird](https://www.thunderbird.net/ja/)
