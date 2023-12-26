@@ -19,6 +19,22 @@
 
 ### Windows 10
 
+`言語` の `優先する言語` は実はクリックできる
+
+![img](./img/corvus-win10-01.png)
+
+クリックすると `オプション` ボタンが表示されるのでクリック
+
+![img](./img/corvus-win10-02.png)
+
+`ハードウェア キーボード レイアウト` から `CorvusSKK` を選択
+
+![img](./img/corvus-win10-03.png)
+
+`キーボード` で `CorvusSKK` を選択できるようになる。
+
+![img](./img/corvus-win10-04.png)
+
 
 ## <kbd>ctrl + alt + ←↓↑→</kbd> での画面回転の無効化
 
