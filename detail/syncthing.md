@@ -36,6 +36,8 @@
 
 + Path: `~\AppData\Roaming\CorvusSKK`
 
+辞書を複数端末間で同期しようとすると衝突が頻繁に起こるので避けたほうが吉。
+
 
 ### Google 日本語入力
 

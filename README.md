@@ -26,6 +26,7 @@
 ### 各アプリの設定
 
 + [Syncthing](./detail/syncthing.md)
++ [CorvusSKK](./detail/corvusskk.md)
 + [PowerShell](./detail/powershell.md)
 + [Obsidian](./detail/obsidian.md)
 + [Chrome](./detail/chrome.md)
