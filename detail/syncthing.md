@@ -3,7 +3,7 @@
 基本的に以下の手順で進める。
 
 1. 同期フォルダのパスを指定する。
-1. `.stignore` を設定する。
+1. `.stignore` （無視するファイル）を設定する。
 1. `共有` から他の端末と同期する。
     - 先に共有してしまうと無視すべきファイルも残ってしまうので要注意。
 
@@ -34,15 +34,23 @@
 
 ### CorvusSKK
 
-+ Path: `~\AppData\Roaming\CorvusSKK`
+- Path: `~\AppData\Roaming\CorvusSKK`
+- `.stignore`
 
-辞書を複数端末間で同期しようとすると衝突が頻繁に起こるので避けたほうが吉。
+    ```
+    !config.xml
+    *
+    ```
+
+- 設定ファイルの `config.xml` だけを同期するように設定。
+- 辞書ファイル自体を複数端末間で同期しようとすると衝突が頻繁に起こるので避ける。
+    - 辞書ファイルはそのバックアップファイル（ `~~.bak` ）を別の手段でバックアップする。
 
 
-### Google 日本語入力
+### ~~Google 日本語入力~~
 
-+ Path: `~\AppData\LocalLow\Google\Google Japanese Input`
-+ `.stignore`
++ ~~Path: `~\AppData\LocalLow\Google\Google Japanese Input`~~
++ ~~`.stignore`~~
 
     ```
     !user_dictionary.db
