@@ -9,7 +9,8 @@
 1. https://github.com/nathancorvussolis/crvskkserv/releases/latest から最新版を取得
 2. 解凍して任意のフォルダに配置する（`Personal` など）
 3. `crvskkserv.exe` のショートカットをスタートアップに設置
-4. `crvskkserv.exe` を起動して `GoogleCGIAPI追加` を押下。諸々はデフォルトのままでOK
-    - `見出し語の検索除外条件` は `^[A-Za-z0-9]+` （英数から始まるもの）でもいいかも（デフォルトは `[^A-Za-z0-9]+[a-z]`）
+4. `crvskkserv.exe` を起動して `GoogleCGIAPI追加` を押下。
+    - `見出し語の検索除外条件` は `(^[A-Za-z0-9]+)|([^A-Za-z0-9]+[a-z])` （「英数だけが続くもの」もしくは「ひらがなが続いて1文字のアルファベットで終了するもの」）
+    - その他はデフォルトのままでOK
 5. CorvusSKK の設定ダイアログを開き、辞書1タブの `SKK辞書サーバーを使用する` をチェック。その他の設定はデフォルト。
 
