@@ -50,12 +50,8 @@
 
 ![img](./img/multi-task.png)
 
-`ウィンドウのスナップ` をオンに。残りのチェックは外す。
+`ウィンドウのスナップ` をオンに。その内部にも設定が潜んでいるので注意。
 
-
-![img](./img/alttab.png)
-
-<kbd>Alt + Tab</kbd> の切り替えを設定。
 
 ## タッチパッド設定
 
@@ -95,11 +91,15 @@
 
 ## キーボード設定変更キー（alt+shift）の無効化
 
+![img](./img/keysequence.png)
+
+## 固定キー／フィルターキーの無効化
+
 ![img](./img/keyboard.png)
 
-## 固定キーの無効化
-
 ![img](./img/fixkey.png)
+
+![img](./img/filterkey.png)
 
 ## 高DPI設定時の対応
 
