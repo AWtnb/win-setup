@@ -32,22 +32,6 @@
     workspace-mobile.json
     ```
 
-### CorvusSKK
-
-- Path: `~\AppData\Roaming\CorvusSKK`
-- `.stignore`
-
-    ```
-    !config.xml
-    !init.lua
-    *
-    ```
-
-- 設定ファイルの `config.xml` と `init.lua` だけを同期するように設定。
-- 辞書ファイル自体を複数端末間で同期しようとすると衝突が頻繁に起こるので避ける。
-    - 辞書ファイルはそのバックアップファイル（ `~~.bak` ）を別の手段でバックアップする。
-
-
 ### ~~Google 日本語入力~~
 
 + ~~Path: `~\AppData\LocalLow\Google\Google Japanese Input`~~
