@@ -3,12 +3,7 @@
 ## 設定の反映
 
 1. `Get-ExecutionPolicy` の結果が `RemoteSigned` でなければ管理者権限で `Set-ExecutionPolicy RemoteSigned`
-1. 管理者権限で下記スクリプトを実行してセットアップ
-    + `.\src\pwsh.ps1`
-    + `.\src\keyhac.ps1`
-    + `.\src\mery.ps1`
-    + `.\src\mousegesuturel.ps1`
-    + `.\src\sumatrapdf.ps1`
+1. 管理者権限で `src` 内の各スクリプトを実行してセットアップ
 
 ## scoop
 

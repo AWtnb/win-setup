@@ -1,5 +1,7 @@
 # CorvusSKK
 
+https://github.com/AWtnb/CorvusSKK
+
 ## ユーザー辞書のバックアップ
 
 1. `辞書2` タブのバックアップ先ディレクトリをローカルの任意のディレクトリに指定する。

@@ -32,18 +32,6 @@
     workspace-mobile.json
     ```
 
-### ~~Google 日本語入力~~
-
-+ ~~Path: `~\AppData\LocalLow\Google\Google Japanese Input`~~
-+ ~~`.stignore`~~
-
-    ```
-    !user_dictionary.db
-    !config1.db
-    *
-    ```
-
-
 ## Synology NAS
 
 DSM にも Syncthing を追加する。
