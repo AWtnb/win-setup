@@ -8,6 +8,13 @@
 1. `共有` から他の端末と同期する。
 
 
+## 構成図
+
+![img](./img/network.png)
+
+- `Default Folder` ： NASとThinkBookとThinkPadで同期
+- `Obsidian` ： NASとThinkBookとスマホで同期
+
 ## ローカル
 
 ### Default Folder
@@ -33,6 +40,14 @@
     ```
 
 ## Synology NAS
+
+> [!NOTE]
+> 転居などでネットワークそのものが変更された場合は、DSMのコントロールパネルから `ネットワーク` → `ネットワーク インターフェイス` で接続しているLANの編集画面を出し、 `DHCP サーバーのネットワーク設定を自動的に取得する` の設定を有効にすると基本的な初期設定を済ませてくれる。
+> 
+> これによってIPアドレスも変わるのでDSMからは一時的に強制ログアウトとなる。あらためて find.synology.com からDSMに再アクセスし、IPアドレスの固定操作を行う。
+
+
+
 
 DSM にも Syncthing を追加する。
 
