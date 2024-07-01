@@ -24,6 +24,7 @@
     ```
     node_modules
     keyhac.ini
+    cfiler.ini
     tablacus/config/closedtabs*.xml
     tablacus/config/window*.xml
     ```
