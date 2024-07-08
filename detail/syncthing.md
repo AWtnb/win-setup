@@ -8,13 +8,6 @@
 1. `共有` から他の端末と同期する。
 
 
-## 構成図
-
-![img](./img/network.png)
-
-- `Default Folder` ： NASとThinkBookとThinkPadで同期
-- `Obsidian` ： NASとThinkBookとスマホで同期
-
 ## ローカル
 
 ### Default Folder
