@@ -39,6 +39,7 @@
 - [Obsidian](./detail/obsidian.md)
 - [Chrome](./detail/chrome.md)
 - [Firefox](./detail/firefox.md)
+- [SumatraPDF](./detail/sumatrapdf.md)
 - [Thunderbird](./detail/thunderbird.md)
 
 ## Windows の設定
