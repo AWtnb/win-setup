@@ -16,26 +16,28 @@
 
 ### Default Folder
 
-+ `.stignore`
+`.stignore`:
 
-    ```
-    node_modules
-    keyhac.ini
-    cfiler.ini
-    tablacus/config/closedtabs*.xml
-    tablacus/config/window*.xml
-    ```
+```
+node_modules
+keyhac.ini
+cfiler.ini
+tablacus/config/closedtabs*.xml
+tablacus/config/window*.xml
+.venv
+```
 
 
 ### Obsidian
 
-+ Path: `~\Obsidian`
-+ `.stignore`
+Path: `~\Obsidian`
 
-    ```
-    workspace.json
-    workspace-mobile.json
-    ```
+`.stignore`:
+
+```
+workspace.json
+workspace-mobile.json
+```
 
 ## Synology NAS
 
