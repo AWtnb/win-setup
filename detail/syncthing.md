@@ -19,7 +19,7 @@
 `.stignore`:
 
 ```
-node_modules
+(?d)node_modules
 keyhac.ini
 cfiler.ini
 tablacus/config/closedtabs*.xml
