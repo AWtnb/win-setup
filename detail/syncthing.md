@@ -25,6 +25,7 @@ cfiler.ini
 tablacus/config/closedtabs*.xml
 tablacus/config/window*.xml
 (?d).venv
+CorvusSKK/*dict.txt
 ```
 
 
