@@ -26,6 +26,7 @@ tablacus/config/closedtabs*.xml
 tablacus/config/window*.xml
 (?d).venv
 CorvusSKK/*dict.txt
+(?d)__pycache__
 ```
 
 
