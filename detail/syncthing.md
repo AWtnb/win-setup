@@ -27,6 +27,7 @@ tablacus/config/window*.xml
 (?d).venv
 CorvusSKK/*dict.txt
 (?d)__pycache__
+Mery.his
 ```
 
 
