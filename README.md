@@ -35,6 +35,8 @@
 ### 各アプリの設定
 
 - [Syncthing](./detail/syncthing.md)
+- [keyhac](https://github.com/AWtnb/keyhac)
+- [cfiler](https://github.com/AWtnb/cfiler)
 - [CorvusSKK](./detail/corvusskk.md)
 - [PowerShell](./detail/powershell.md)
 - [Obsidian](./detail/obsidian.md)
