@@ -135,15 +135,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdFindPrev
-		Key = Ctrl + k
-	]
-	[
-		Cmd = CmdFindPrev
 		Key = Shift + return
-	]
-	[
-		Cmd = CmdFindPrev
-		Key = Shift + n
 	]
 ]
 EscToExit = false
