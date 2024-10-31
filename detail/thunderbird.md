@@ -32,12 +32,9 @@ https://github.com/AWtnb/thunderbird_imap_setting
 
 ## アドオン
 
-###  [Check and Send](https://addons.thunderbird.net/ja/thunderbird/addon/check-and-send/)
+### [メール送信前のチェック](https://addons.thunderbird.net/thunderbird/addon/check-before-sending-email/)
 
-`以下の単語がメール中になかったら確認する` に下記を設定：
-
-+ `先生`
-+ `様`
+https://github.com/zacky48/check-before-sending-email
 
 ###  [No Message Pane Sort](https://addons.thunderbird.net/ja/thunderbird/addon/no-message-pane-sort-by-mouse/)
 
