@@ -16,6 +16,12 @@
 
 ![img](./img/corvus-win11-03.png)
 
+`(Get-WinUserLanguageList).InputMethodTips` でMicrosoft IME以外を確認できたら、下記コマンドを実行してもOK。
+
+```PowerShell
+Set-WinDefaultInputMethodOverride -InputTip "0411:{EAEA0E29-AA1E-48EF-B2DF-46F4E24C6265}{956F14B3-5310-4CEF-9651-26710EB72F3A}"
+```
+
 
 ### Windows 10
 
