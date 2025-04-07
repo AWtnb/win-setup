@@ -65,7 +65,7 @@ message-list pane (card-view-mode)
 /* unread message */
 #threadTree [data-properties~="unread"],
 #threadTree [data-properties~="unread"].selected {
-  color: #a30a52 !important;
+  color: #76b600 !important;
 }
 
 /* ------------------------------

@@ -28,7 +28,9 @@ https://github.com/AWtnb/thunderbird_imap_setting
 
 を下記にコピー。
 
-`C:\Users\%USERNAME%\AppData\Roaming\Thunderbird\Profiles\~~~~~~~~~~~~~~~~~\chrome`
+```PowerShell
+"$env:USERPROFILE\AppData\Roaming\Thunderbird\Profiles\"|ls|sort LastWriteTime|select -Last 1|ls -Filter "chrome"|sv dest;ls .\detail\chrome\|%{$_|Copy-Item -Destination $dest}
+```
 
 ## アドオン
 
