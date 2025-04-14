@@ -24,7 +24,8 @@ message-list pane (table-view-mode)
 
 #threadTree [is="thread-row"].selected {
   background-color: #98daee !important;
-  color: #494949 !important;
+  color: tomato !important;
+  outline: 1px solid tomato;
 }
 
 #threadTree [is="thread-row"]:hover {

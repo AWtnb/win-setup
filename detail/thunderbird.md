@@ -26,7 +26,7 @@ https://github.com/AWtnb/thunderbird_imap_setting
 + [`userChrome.css`](./chrome/userChrome.css)
 + [`userContent.css`](./chrome/userContent.css)
 
-を下記にコピー。
+を下記コマンドでコピー。
 
 ```PowerShell
 "$env:USERPROFILE\AppData\Roaming\Thunderbird\Profiles\"|ls|sort LastWriteTime|select -Last 1|ls -Filter "chrome"|sv dest;ls .\detail\chrome\|%{$_|Copy-Item -Destination $dest}
