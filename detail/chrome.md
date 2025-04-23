@@ -25,38 +25,3 @@
 1. デスクトップに作成されたショートカットを `C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu` に置くことで、スタートメニューの検索対象に登録できる
 
 
-## Extension
-
-### [shortkeys](https://github.com/crittermike/shortkeys)
-
-```json
-[
-  {
-    "key": "alt+shift+o",
-    "label": "close-other-tabs",
-    "action": "onlytab",
-    "sites": "",
-    "sitesArray": [
-      ""
-    ]
-  },
-  {
-    "key": "ctrl+alt+h",
-    "label": "close-to-left",
-    "action": "closelefttabs",
-    "sites": "",
-    "sitesArray": [
-      ""
-    ]
-  },
-  {
-    "key": "ctrl+alt+l",
-    "label": "close-to-right",
-    "action": "closerighttabs",
-    "sites": "",
-    "sitesArray": [
-      ""
-    ]
-  }
-]
-```
