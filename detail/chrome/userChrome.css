@@ -56,10 +56,10 @@ message-list pane
 }
 
 /* unread message */
-#threadTree tr[data-properties~="hasUnread"] *,
+#threadTree .table-layout.children[data-properties~="hasUnread"][data-properties~="read"],
 #threadTree tr[data-properties~="unread"] * {
   color: tomato !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 /*
