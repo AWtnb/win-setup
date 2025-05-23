@@ -59,6 +59,9 @@ message-list pane
 #threadTree .table-layout.children[data-properties~="hasUnread"][data-properties~="read"],
 #threadTree tr[data-properties~="unread"] * {
   color: tomato !important;
+}
+
+#threadTree tr[data-properties~="unread"] * {
   font-weight: bold !important;
 }
 
