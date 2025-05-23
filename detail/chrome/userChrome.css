@@ -1,3 +1,9 @@
+/* ==============================
+
+"$env:USERPROFILE\AppData\Roaming\Thunderbird\Profiles\"|ls|sort LastWriteTime|select -Last 1|ls -Filter "chrome"|sv dest;ls .\detail\chrome\|%{$_|Copy-Item -Destination $dest}
+
+============================== */
+
 #threadTree * {
   font-family: "UDEV Gothic" !important;
 }
@@ -8,9 +14,9 @@
   border: none !important;
 }
 
-/* ------------------------------
+/*
 message-list pane
------------------------------- */
+*/
 
 /* https://x.com/shirouzu/status/1730838468803322060 */
 #threadTree tr[is="thread-row"] .subject-line {
@@ -50,22 +56,24 @@ message-list pane
 }
 
 /* unread message */
-#threadTree tr[data-properties~="unread"] {
+#threadTree tr[data-properties~="hasUnread"] *,
+#threadTree tr[data-properties~="unread"] * {
   color: tomato !important;
+  font-weight: bold;
 }
 
-/* ------------------------------
-    folder pane
------------------------------- */
+/*
+folder pane
+*/
 
 #folderTree [data-folder-type="drafts"] span.unread-count {
   background: #ccc !important;
   color: #888 !important;
 }
 
-/* ------------------------------
-    preview pane
------------------------------- */
+/*
+preview pane
+*/
 
 #attachment-view-toolbar,
 #attachmentList,
