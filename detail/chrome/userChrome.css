@@ -9,64 +9,49 @@
 }
 
 /* ------------------------------
-message-list pane (table-view-mode)
+message-list pane
 ------------------------------ */
 
-#threadTree [is="thread-row"] {
+/* https://x.com/shirouzu/status/1730838468803322060 */
+#threadTree tr[is="thread-row"] .subject-line {
+  margin-inline-start: calc(16px * min(var(--thread-level), 3)) !important;
+}
+
+#threadTree tr[is="thread-row"] .subject-line:not([style*="--thread-level: 0"]) {
+  color: #acacac !important;
+}
+
+#threadTree tr[is="thread-row"] {
   font-size: 12px;
-  color: #6e6e6e !important;
+  color: #555 !important;
   line-height: 2;
 }
 
-#threadTree [is="thread-row"]:nth-of-type(odd) {
+#threadTree tr[is="thread-row"]:nth-of-type(odd) {
   background: #ececec !important;
 }
 
-#threadTree [is="thread-row"].selected {
-  background-color: #98daee !important;
-  color: tomato !important;
-  outline: 1px solid tomato;
+#threadTree tr[is="thread-row"].selected {
+  background-color: #eaea2a !important;
+
+  outline: 1px solid #666;
 }
 
-#threadTree [is="thread-row"]:hover {
-  background-color: #c3e9f5 !important;
+#threadTree tr[is="thread-row"]:hover {
+  background-color: #eaea2a !important;
 }
 
-#threadTree [is="thread-row"].selected button.tree-button-flag {
+#threadTree tr[is="thread-row"].selected button.tree-button-flag {
   color: #efefef !important;
 }
 
-/* ------------------------------
-message-list pane (card-view-mode)
------------------------------- */
-
-#threadTree [is="thread-card"] {
-  font-size: 12px;
-  color: #6e6e6e !important;
-  line-height: 2;
-}
-
-#threadTree [is="thread-card"]:nth-of-type(odd) {
-  background: #ececec !important;
-}
-
-#threadTree [is="thread-card"].selected {
-  background-color: #98daee !important;
-  color: #494949 !important;
-}
-
-#threadTree [is="thread-card"]:hover {
-  background-color: #c3e9f5 !important;
-}
-
-#threadTree [is="thread-card"].selected button.tree-button-flag {
-  color: #efefef !important;
+#threadTree .thread-container:not(:first-child) {
+  border-left: 1px solid tomato;
 }
 
 /* unread message */
-#threadTree [data-properties~="unread"],
-#threadTree [data-properties~="unread"].selected {
-  color: #76b600 !important;
+#threadTree tr[data-properties~="unread"] {
+  color: tomato !important;
 }
 
 /* ------------------------------
