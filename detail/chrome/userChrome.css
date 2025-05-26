@@ -43,12 +43,11 @@ message-list pane
 
 #threadTree tr[is="thread-row"].selected {
   background-color: #eaea2a !important;
-
-  outline: 1px solid #666;
 }
 
 #threadTree tr[is="thread-row"]:hover {
-  background-color: #eaea2a !important;
+  outline: 1px solid #666 !important;;
+  outline-style: dotted !important;
 }
 
 #threadTree tr[is="thread-row"].selected button.tree-button-flag {
