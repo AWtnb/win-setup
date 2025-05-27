@@ -27,9 +27,9 @@ message-list pane
   color: #acacac !important;
 }
 
-#threadTree tr[is="thread-row"][data-properties~="outgoing"] .sendercol-column {
+/* #threadTree tr[is="thread-row"][data-properties~="outgoing"] .sendercol-column {
   color: #acacac !important;
-}
+} */
 
 #threadTree tr[is="thread-row"] {
   font-size: 12px;
@@ -46,7 +46,7 @@ message-list pane
 }
 
 #threadTree tr[is="thread-row"]:hover {
-  outline: 1px solid #666 !important;;
+  outline: 1px solid #666 !important;
   outline-style: dotted !important;
 }
 
@@ -55,7 +55,7 @@ message-list pane
 }
 
 /* unread message */
-#threadTree .table-layout.children[data-properties~="hasUnread"][data-properties~="read"] *,
+#threadTree .table-layout.children[data-properties~="hasUnread"][data-properties~="read"].collapsed *,
 #threadTree tr[data-properties~="unread"] * {
   color: tomato !important;
 }
