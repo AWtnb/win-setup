@@ -21,8 +21,8 @@
 1. [Firefox](https://www.mozilla.org/ja/firefox/new/)
 1. [Chrome](https://www.google.com/intl/ja/chrome/)
 1. [Dropbox](https://www.dropbox.com/home)
-1. [Syncthing](https://syncthing.net/downloads/)
-    - [SyncTrayzor](https://github.com/canton7/SyncTrayzor)
+1. Syncthing ([github.com/Martchus/syncthingtray](https://github.com/Martchus/syncthingtray))
+    - `scoop install syncthingtray`
 1. [CorvusSKK](https://nathancorvussolis.github.io/)
     1. WinGetを [Microsoft Store](https://apps.microsoft.com/detail/9nblggh4nns1) からインストール
     1. [公式](https://nathancorvussolis.github.io/) に従って `winget install -h corvusskk -s winget`
