@@ -22,9 +22,11 @@
     scoop bucket add extras
     ```
 
-1. [リポジトリ](https://github.com/AWtnb/PowerShell) に従ってセットアップ
-1. ツール類のインストール
+1. 自作ツール類をインストールして、各READMEの内容に従ってセットアップ
 
     ```
-    echo bat wezterm go irfanview-lean ksnip less monolith nodejs obsidian pdf-xchange-editor python rustup ueli vscode | % {scoop install $_}
+    git clone https://github.com/AWtnb/cfiler.git
+    git clone https://github.com/AWtnb/CorvusSKK.git
+    git clone https://github.com/AWtnb/keyhac.git
+    git clone https://github.com/AWtnb/PowerShell.git
     ```
