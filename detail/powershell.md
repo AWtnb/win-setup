@@ -30,4 +30,5 @@
     git clone https://github.com/AWtnb/keyhac.git
     git clone https://github.com/AWtnb/PowerShell.git
     git clone https://github.com/AWtnb/wezterm.git
+    git clone https://github.com/AWtnb/mery-macros.git
     ```
