@@ -29,4 +29,5 @@
     git clone https://github.com/AWtnb/CorvusSKK.git
     git clone https://github.com/AWtnb/keyhac.git
     git clone https://github.com/AWtnb/PowerShell.git
+    git clone https://github.com/AWtnb/wezterm.git
     ```
