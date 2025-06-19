@@ -61,7 +61,7 @@ message-list pane
 }
 
 /* hide mark-read button on the top of collapsed thread */
-#threadTree .table-layout.children[data-properties~="hasUnread"].collapsed button.tree-button-unread {
+#threadTree .table-layout.children.collapsed button.tree-button-unread {
   display: none !important;
 }
 
