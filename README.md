@@ -43,6 +43,7 @@
 - [Chrome](./detail/chrome.md)
 - [Firefox](./detail/firefox.md)
 - [SumatraPDF](./detail/sumatrapdf.md)
+    - https://github.com/AWtnb/SumatraPDF-setting
 - [Thunderbird](./detail/thunderbird.md)
 
 ## Windows の設定
