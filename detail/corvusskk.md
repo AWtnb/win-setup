@@ -4,8 +4,7 @@ https://github.com/AWtnb/CorvusSKK
 
 ## ユーザー辞書のバックアップ
 
-1. `辞書2` タブのバックアップ先ディレクトリをローカルの任意のディレクトリに指定する。
-2. `~~.bak` ファイルを任意の方法でバックアップする（例：Synology Drive Client）
+`辞書2` タブのバックアップ先ディレクトリをローカルの任意のディレクトリに指定する（上記リポジトリの[この箇所](https://github.com/AWtnb/CorvusSKK/blob/3987b5cfffa87f948976dd518bb96407341c9f00/CorvusSKK/config.xml#L20)）。
 
 ## 辞書サーバー初期設定（Google 日本語入力 API の使用）
 
