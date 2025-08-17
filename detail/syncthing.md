@@ -42,6 +42,8 @@ workspace.json
 workspace-mobile.json
 ```
 
+Androidのディレクトリ構成では `/storage/emulated/0/`がルートになる。
+
 ## Synology NAS
 
 > [!NOTE]
