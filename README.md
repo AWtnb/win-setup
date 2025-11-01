@@ -18,19 +18,23 @@
 
 ## 各種アプリのインストール
 
+Windows11以降であればWinGetは標準でインストールされているはず。
+もし未インストールであれば [Microsoft Store](https://apps.microsoft.com/detail/9nblggh4nns1) からインストールしておく。
+
+1. [PowerShell](https://github.com/PowerShell/PowerShell/releases)
+    1. [公式](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5) に従って `winget install --id Microsoft.PowerShell --source winget`
 1. [Firefox](https://www.mozilla.org/ja/firefox/new/)
 1. [Chrome](https://www.google.com/intl/ja/chrome/)
 1. [Dropbox](https://www.dropbox.com/home)
 1. Syncthing ([github.com/Martchus/syncthingtray](https://github.com/Martchus/syncthingtray))
     - `scoop install syncthingtray`
 1. [CorvusSKK](https://nathancorvussolis.github.io/)
-    1. WinGetを [Microsoft Store](https://apps.microsoft.com/detail/9nblggh4nns1) からインストール
     1. [公式](https://nathancorvussolis.github.io/) に従って `winget install -h corvusskk -s winget`
 1. [Google日本語入力](https://www.google.co.jp/ime/)
 1. [Mery](https://www.haijin-boys.com/)
 1. [ThunderBird](https://www.thunderbird.net/ja/)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
-1. [PowerShell](https://github.com/PowerShell/PowerShell/releases)
+
 
 ### 各アプリの設定
 
