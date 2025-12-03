@@ -30,7 +30,6 @@ Windows11以降であればWinGetは標準でインストールされている�
     - `scoop install syncthingtray`
 1. [CorvusSKK](https://nathancorvussolis.github.io/)
     1. [公式](https://nathancorvussolis.github.io/) に従って `winget install -h corvusskk -s winget`
-1. [Google日本語入力](https://www.google.co.jp/ime/)
 1. [Mery](https://www.haijin-boys.com/)
 1. [ThunderBird](https://www.thunderbird.net/ja/)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
