@@ -1,12 +1,5 @@
 # Windows Setup Memo
 
-## ポータブルアプリ
-
-- [keyhac](https://sites.google.com/site/craftware/keyhac-ja)
-    - [Github](https://github.com/crftwr/keyhac)
-- [cfiler](https://sites.google.com/site/craftware/cfiler)
-    - [Github](https://github.com/crftwr/cfiler)
-
 ## フォントのインストール
 
 - [IBM-Plex-Sans](https://github.com/IBM/plex/releases)
@@ -16,6 +9,13 @@
 - [UDEVGothic](https://github.com/yuru7/udev-gothic/releases)
 
 
+## Windows の設定
+
+- [システム設定](./detail/windows_system.md)
+- [プリインストールアプリの削除](./detail/clean_preinstalled.md)
+
+
+
 ## 各種アプリのインストール
 
 Windows11以降であればWinGetは標準でインストールされているはず。
@@ -23,8 +23,6 @@ Windows11以降であればWinGetは標準でインストールされている�
 
 1. [PowerShell](https://github.com/PowerShell/PowerShell/releases)
     1. [公式](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5) に従って `winget install --id Microsoft.PowerShell --source winget`
-1. [Firefox](https://www.mozilla.org/ja/firefox/new/)
-1. [Chrome](https://www.google.com/intl/ja/chrome/)
 1. [Dropbox](https://www.dropbox.com/home)
 1. Syncthing ([github.com/Martchus/syncthingtray](https://github.com/Martchus/syncthingtray))
     - `scoop install syncthingtray`
@@ -37,20 +35,15 @@ Windows11以降であればWinGetは標準でインストールされている�
 
 ### 各アプリの設定
 
+- [PowerShell](./detail/powershell.md)
 - [Syncthing](./detail/syncthing.md)
 - [keyhac](https://github.com/AWtnb/keyhac)
 - [cfiler](https://github.com/AWtnb/cfiler)
 - [CorvusSKK](./detail/corvusskk.md)
-- [PowerShell](./detail/powershell.md)
 - [Obsidian](./detail/obsidian.md)
 - [Chrome](./detail/chrome.md)
 - [Firefox](./detail/firefox.md)
 - [SumatraPDF](./detail/sumatrapdf.md)
     - https://github.com/AWtnb/SumatraPDF-setting
 - [Thunderbird](./detail/thunderbird.md)
-
-## Windows の設定
-
-- [システム設定](./detail/windows_system.md)
-- [プリインストールアプリの削除](./detail/clean_preinstalled.md)
 

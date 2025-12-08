@@ -16,6 +16,12 @@
 
 ### Default Folder
 
+```
+┌───── NAS ─────┐
+│                         │
+Private ───────── Work
+```
+
 `.stignore`:
 
 ```
@@ -35,6 +41,13 @@ Mery.his
 
 Path: `~\Obsidian`
 
+
+```
+┌───── NAS ─────┐
+│                         │
+Private ───────── Phone
+```
+
 `.stignore`:
 
 ```
@@ -43,6 +56,26 @@ workspace-mobile.json
 ```
 
 Androidのディレクトリ構成では `/storage/emulated/0/`がルートになる。
+
+
+### Schedule
+
+Path: `~\Schedule`
+
+
+```
+┌───── NAS ─────┐
+│                         │
+Work ────────── Phone
+```
+
+`.stignore`:
+
+```
+workspace.json
+workspace-mobile.json
+```
+
 
 ## Synology NAS
 

@@ -5,7 +5,7 @@
 1. scoop インストール
 
     ```PowerShell
-    Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+    Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
     ```
 
 1. git 有効化
@@ -25,10 +25,12 @@
 1. 自作ツール類をインストールして、各READMEの内容に従ってセットアップ
 
     ```
-    git clone https://github.com/AWtnb/cfiler.git
-    git clone https://github.com/AWtnb/CorvusSKK.git
-    git clone https://github.com/AWtnb/keyhac.git
-    git clone https://github.com/AWtnb/PowerShell.git
-    git clone https://github.com/AWtnb/wezterm.git
-    git clone https://github.com/AWtnb/mery-macros.git
+    git clone https://github.com/AWtnb/cfiler
+    git clone https://github.com/AWtnb/CorvusSKK
+    git clone https://github.com/AWtnb/git-behind-checker
+    git clone https://github.com/AWtnb/keyhac
+    git clone https://github.com/AWtnb/mery-macros
+    git clone https://github.com/AWtnb/PowerShell
+    git clone https://github.com/AWtnb/set-keyrate
+    git clone https://github.com/AWtnb/wezterm
     ```
