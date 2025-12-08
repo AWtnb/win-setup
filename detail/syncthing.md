@@ -17,10 +17,12 @@
 ### Default Folder
 
 ```
-┌───── NAS ─────┐
-│                         │
-Private ───────── Work
+     ┌────NAS────┐
+     │           │
+     │           │
+   Private──── Work
 ```
+
 
 `.stignore`:
 
@@ -43,9 +45,10 @@ Path: `~\Obsidian`
 
 
 ```
-┌───── NAS ─────┐
-│                         │
-Private ───────── Phone
+      ┌────NAS────┐
+      │           │
+      │           │
+   Private ──── Phone
 ```
 
 `.stignore`:
@@ -64,9 +67,10 @@ Path: `~\Schedule`
 
 
 ```
-┌───── NAS ─────┐
-│                         │
-Work ────────── Phone
+      ┌────NAS────┐
+      │           │
+      │           │
+    Work ────── Phone
 ```
 
 `.stignore`:
