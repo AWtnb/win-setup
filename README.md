@@ -23,6 +23,8 @@ Windows11以降であればWinGetは標準でインストールされている�
 1. [Dropbox](https://www.dropbox.com/home)
 1. [CorvusSKK](https://nathancorvussolis.github.io/)
     1. [公式](https://nathancorvussolis.github.io/) に従って `winget install -h corvusskk -s winget`
+    1. `git clone https://github.com/AWtnb/CorvusSKK`
+    1. [設定](./detail/corvusskk.md)
 1. [Mery](https://www.haijin-boys.com/)
     - `git clone https://github.com/AWtnb/mery-macros.git`
 1. PowerShell
@@ -49,9 +51,6 @@ Windows11以降であればWinGetは標準でインストールされている�
     - `git clone https://github.com/AWtnb/keyhac`
 1. cfiler
     - `git clone https://github.com/AWtnb/cfiler`
-1. CorvusSKK
-    1. `git clone https://github.com/AWtnb/CorvusSKK`
-    1. [設定](./detail/corvusskk.md)
 1. Chrome
     - [プロファイル設定](./detail/chrome.md)
 1. Firefox
