@@ -24,6 +24,7 @@ Windows11以降であればWinGetは標準でインストールされている�
 1. [CorvusSKK](https://nathancorvussolis.github.io/)
     1. [公式](https://nathancorvussolis.github.io/) に従って `winget install -h corvusskk -s winget`
 1. [Mery](https://www.haijin-boys.com/)
+    - `git clone https://github.com/AWtnb/mery-macros.git`
 1. PowerShell
     1. `winget install --id Microsoft.PowerShell --source winget` （[公式](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)）
     1. scoop インストール
