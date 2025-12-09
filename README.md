@@ -20,6 +20,10 @@
 Windows11以降であればWinGetは標準でインストールされているはず。
 もし未インストールであれば [Microsoft Store](https://apps.microsoft.com/detail/9nblggh4nns1) からインストールしておく。
 
+1. Chrome
+    - [プロファイル設定](./detail/chrome.md)
+1. Firefox
+    - [`about:config`などを設定](./detail/firefox.md)
 1. [Dropbox](https://www.dropbox.com/home)
 1. [CorvusSKK](https://nathancorvussolis.github.io/)
     1. [公式](https://nathancorvussolis.github.io/) に従って `winget install -h corvusskk -s winget`
@@ -51,14 +55,11 @@ Windows11以降であればWinGetは標準でインストールされている�
     - `git clone https://github.com/AWtnb/keyhac`
 1. cfiler
     - `git clone https://github.com/AWtnb/cfiler`
-1. Chrome
-    - [プロファイル設定](./detail/chrome.md)
-1. Firefox
-    - [`about:config`などを設定](./detail/firefox.md)
 1. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
     1. インストール画面では「すべてのユーザーに対してインストール」選択する
     1. https://github.com/AWtnb/SumatraPDF-setting
 1. [ThunderBird](https://www.thunderbird.net/ja/)
     - [Thunderbird のデータを新しいコンピューターに移動する | Thunderbird ヘルプ](https://support.mozilla.org/ja/kb/moving-thunderbird-data-to-a-new-computer?redirectslug=moving-thunderbird-data-new-computer&redirectlocale=ja)
     - [アドオン設定](./detail/thunderbird.md)
-
+1. [Everything](https://www.voidtools.com/downloads/)
+    - 設定は `AppData\Roaming\Everything\Everything.ini`
