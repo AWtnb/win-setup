@@ -1,6 +1,11 @@
 # Syncthing
 
-基本的に以下の手順で進める。
+
+> [!IMPORTANT]
+> 接続しているネットワークを **プライベート** にしないと同期対象のデバイスとして認識されないので注意！
+
+
+基本的な手順は以下：
 
 1. 同期対象のフォルダのパスを指定する。
 1. `無視するファイル` （`.stignore`）を設定する。
@@ -28,14 +33,8 @@
 
 ```
 (?d)node_modules
-keyhac.ini
-cfiler.ini
-tablacus/config/closedtabs*.xml
-tablacus/config/window*.xml
 (?d).venv
-CorvusSKK/*dict.txt
 (?d)__pycache__
-Mery.his
 ```
 
 

@@ -1,14 +1,5 @@
 # Thunderbird
 
-## データ移行
-
-`C:\Users\%USERNAME%\AppData\Roaming\Thunderbird` をコピーすれば移行完了。
-
-```PowerShell
-$env:APPDATA|Join-Path -ChildPath "thunderbird"|ii # open in explorer
-```
-
-------------------------------
 
 手動でセットアップする場合は下記。
 
@@ -80,21 +71,6 @@ https://github.com/zacky48/check-before-sending-email
 + [Muttator、Dorando keyconfigの代替となる？Thunderbird 68以後もキーバインド変更可能なMailExtensions形式アドオンtbkeys](https://arimasou16.com/blog/2021/05/09/00392/)
 + [Thunderbirdのアドオンtbkeysの設定を晒す](https://arimasou16.com/blog/2021/05/22/00394/)
 + [comm-central: mail/base/content/mainCommandSet.inc.xhtml@1db0a1d856b20696628c6599258d36a31e7288f1](https://hg.mozilla.org/comm-central/file/tip/mail/base/content/mainCommandSet.inc.xhtml)
-
-###  [ThreadVis](https://threadvis.github.io/)
-
-
-+ `Colours (comma-separated) for received emails`
-
-    ```
-    #efcc2f,#59a2bd,#3ebc75,#ff702d,#d94884,#d2d2c2
-    ```
-
-+ `Colour to heighlight current message`
-
-    ```
-    #666666
-    ```
 
 ## `about:config`
 
