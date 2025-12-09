@@ -63,3 +63,11 @@ Windows11以降であればWinGetは標準でインストールされている�
     - [アドオン設定](./detail/thunderbird.md)
 1. [Everything](https://www.voidtools.com/downloads/)
     - 設定は `AppData\Roaming\Everything\Everything.ini`
+1. Obsidian
+    - `scoop install obsidian`
+    - 以下の内容を `.url` の拡張子で保存するとVaultへのショートカットとなる。
+
+        ```
+        [InternetShortcut]
+        URL=obsidian://open/?path=（Vaultのフルパス）
+        ```
