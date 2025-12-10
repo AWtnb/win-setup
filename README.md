@@ -11,8 +11,8 @@
 
 ## Windows の設定
 
-- [システム設定](./detail/windows_system.md)
-- [プリインストールアプリの削除](./detail/clean_preinstalled.md)
+- [システム設定](./windows_system.md)
+- [プリインストールアプリの削除](./clean_preinstalled.md)
 
 
 ## 各種アプリのインストール・設定
@@ -21,14 +21,14 @@ Windows11以降であればWinGetは標準でインストールされている�
 もし未インストールであれば [Microsoft Store](https://apps.microsoft.com/detail/9nblggh4nns1) からインストールしておく。
 
 1. Chrome
-    - [プロファイル設定](./detail/chrome.md)
+    - [プロファイル設定](./chrome.md)
 1. Firefox
-    - [`about:config`などを設定](./detail/firefox.md)
+    - [`about:config`などを設定](./firefox.md)
 1. [Dropbox](https://www.dropbox.com/home)
 1. [CorvusSKK](https://nathancorvussolis.github.io/)
     1. [公式](https://nathancorvussolis.github.io/) に従って `winget install -h corvusskk -s winget`
     1. `git clone https://github.com/AWtnb/CorvusSKK`
-    1. [設定](./detail/corvusskk.md)
+    1. [設定](./corvusskk.md)
 1. [Mery](https://www.haijin-boys.com/)
     - `git clone https://github.com/AWtnb/mery-macros.git`
 1. PowerShell
@@ -50,7 +50,7 @@ Windows11以降であればWinGetは標準でインストールされている�
     1. https://github.com/AWtnb/PowerShell
 1. Syncthing ([github.com/Martchus/syncthingtray](https://github.com/Martchus/syncthingtray))
     1. `scoop install syncthingtray`
-    1. [設定](./detail/syncthing.md)
+    1. [設定](./syncthing.md)
 1. keyhac
     - `git clone https://github.com/AWtnb/keyhac`
 1. cfiler
@@ -60,7 +60,7 @@ Windows11以降であればWinGetは標準でインストールされている�
     1. https://github.com/AWtnb/SumatraPDF-setting
 1. [ThunderBird](https://www.thunderbird.net/ja/)
     - [Thunderbird のデータを新しいコンピューターに移動する | Thunderbird ヘルプ](https://support.mozilla.org/ja/kb/moving-thunderbird-data-to-a-new-computer?redirectslug=moving-thunderbird-data-new-computer&redirectlocale=ja)
-    - [アドオン設定](./detail/thunderbird.md)
+    - [アドオン設定](./thunderbird.md)
 1. [Everything](https://www.voidtools.com/downloads/)
     - 設定は `AppData\Roaming\Everything\Everything.ini`
 1. Obsidian
