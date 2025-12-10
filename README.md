@@ -71,3 +71,6 @@ Windows11以降であればWinGetは標準でインストールされている�
         [InternetShortcut]
         URL=obsidian://open/?path=（Vaultのフルパス）
         ```
+1. PowerToys
+    - `scoop install powertoys`
+    - 設定は `%USERPROFILE%\Documents\PowerToys\Backup` から復元可能
