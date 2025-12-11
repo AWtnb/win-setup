@@ -21,12 +21,12 @@
 
 ### Default Folder
 
-```
-     ┌────NAS────┐
-     │           │
-     │           │
-   Private──── Work
-```
+1. [ ] NAS → Private
+1. [ ] Private → NAS
+1. [ ] NAS → Work
+1. [ ] Work → NAS
+1. [ ] Work → Private
+1. [ ] Private → Work
 
 
 `.stignore`:
@@ -43,12 +43,12 @@
 Path: `~\Obsidian`
 
 
-```
-      ┌────NAS────┐
-      │           │
-      │           │
-   Private ──── Phone
-```
+1. [ ] NAS → Private
+1. [ ] Private → NAS
+1. [ ] NAS → Phone
+1. [ ] Phone → NAS
+1. [ ] Phone → Private
+1. [ ] Private → Phone
 
 `.stignore`:
 
@@ -65,12 +65,12 @@ Androidのディレクトリ構成では `/storage/emulated/0/`がルートに�
 Path: `~\Schedule`
 
 
-```
-      ┌────NAS────┐
-      │           │
-      │           │
-    Work ────── Phone
-```
+1. [ ] NAS → Phone
+1. [ ] Phone → NAS
+1. [ ] NAS → Phone
+1. [ ] Phone → NAS
+1. [ ] Phone → Phone
+1. [ ] Phone → Phone
 
 `.stignore`:
 
