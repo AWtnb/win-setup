@@ -60,24 +60,7 @@ workspace-mobile.json
 Androidのディレクトリ構成では `/storage/emulated/0/`がルートになる。
 
 
-### Schedule
 
-Path: `~\Schedule`
-
-
-1. [ ] NAS → Phone
-1. [ ] Phone → NAS
-1. [ ] NAS → Phone
-1. [ ] Phone → NAS
-1. [ ] Phone → Phone
-1. [ ] Phone → Phone
-
-`.stignore`:
-
-```
-workspace.json
-workspace-mobile.json
-```
 
 
 ## Synology NAS
