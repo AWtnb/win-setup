@@ -19,25 +19,6 @@
 
 ## ローカル
 
-### Default Folder
-
-1. [ ] NAS → Private
-1. [ ] Private → NAS
-1. [ ] NAS → Work
-1. [ ] Work → NAS
-1. [ ] Work → Private
-1. [ ] Private → Work
-
-
-`.stignore`:
-
-```
-(?d)node_modules
-(?d).venv
-(?d)__pycache__
-```
-
-
 ### Obsidian
 
 Path: `~\Obsidian`
