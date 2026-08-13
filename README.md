@@ -48,7 +48,7 @@ https://github.com/settings/emails で `@users.noreply.github.com` のメール�
 scoop install git
 git config --global user.name AWtnb
 git config --global user.email （メールアドレス）
-
+git config --global init.defaultBranch main
 ```
 
 ■ ghq
