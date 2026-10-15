@@ -96,10 +96,20 @@ scoop install syncthingtray
 
 [設定](./apps/syncthing.md)
 
-### keyhac
+### [keyhac](https://github.com/crftwr/keyhac/)
+
+Microsoft store からインストール。
 
 ```
-ghq get https://github.com/AWtnb/keyhac.git
+ghq get https://github.com/AWtnb/keyhac-config.git
+```
+
+### [xefm](https://github.com/crftwr/xefm/)
+
+Microsoft store からインストール。
+
+```
+ghq get https://github.com/AWtnb/xefm-config.git
 ```
 
 ### cfiler
